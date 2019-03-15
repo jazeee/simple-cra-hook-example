@@ -1,3 +1,23 @@
+A simple React example to demonstrate React Hooks. `useState` and
+`useEffect`
+
+Test using `npm start`
+
+## Code Sample
+
+Look at `App.js`. This is a basic functional React Component.
+
+I added one state property `isLogoVisible`, and an effect that enforces
+that it is visible after 2.5 seconds.
+
+If state changes, it will redisplay the logo after 2.5 seconds.
+
+Note that if we remove the unsubscribe call to `clearTimeout`, then the
+UI may show the logo at unexpected times, since multiple timeouts could
+be pending. (click on button a few times).
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
